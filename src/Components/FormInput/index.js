@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import { MaterialUIFormSubmit } from "./components/MaterialUIFormSubmit";
 
-function Form() {
+function FormInput() {
   return (
-    <div></div>
-  )
+    <div className="App">
+      <MaterialUIFormSubmit
+        formName="Sample Form Submit"
+        formDescription="This is sample form using Material UI."
+      />
+    </div>
+  );
 }
 
-export default Form
+export default FormInput;
